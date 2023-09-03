@@ -1,0 +1,79 @@
+body{
+	font-family: cursive;
+	background-image: 
+	url("Project-pics/orange-sunset.png");
+	background-size: cover;
+}
+
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+nav a{
+	padding: 0px 40px 0px 40px;
+	color:#990000 ;
+	font-size: 18pt;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #cc0000;
+}
+
+.selected{
+	color: red;
+}
+
+h1{
+	text-align: center;
+	font-size: 92pt;
+	margin: 20px 0  0 0;
+	color: #;
+}
+
+.mind{
+	color:#ff3300 ;
+}
+
+.body{
+	color:#ff5050 ;
+}
+
+.spirit{
+	color:#ff0000 ;
+}
+
+#slider-img{
+	height: 250px;
+	width: 500px;
+	-moz-box-shadow: 5px 5px 5px 5px;
+	-webkit-box-shadow: 5px 5px 5px 5px;
+	box-shadow: 5px 5px 5px 5px;
+}
+
+.main{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.text-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.header-text{
+	padding: 0px 15px 0px 20px;
+	font-size: 32pt;
+	margin: 0;
+}
+
+.content{
+	text-align: center;
+	font-size: 22pt;
+	margin-top: 0px;
+}
+

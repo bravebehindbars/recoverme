@@ -1,0 +1,340 @@
+body{
+	background-color:#ffbf80;
+	background-image: 
+	url("Project-pics/water.png");
+	background-size: cover;
+	font-family: cursive;
+}
+
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+nav a{
+	padding: 0 40px 0 40px;
+	color: #000066;
+	text-decoration: none;
+	font-size: 18pt;
+}
+
+nav a:hover{
+	color:#3333ff;
+
+}
+
+.selected{
+	color: lightgrey;
+}
+
+.footer{
+	color: #ccccff;
+	margin: 0;
+}
+/* This is for reasearch page*/
+
+.sectionTag{
+	font-size: 16pt;
+}
+
+.para{
+	margin-left: 20px;
+}
+
+.stay-strong{
+	color:#b3ebff;
+}
+
+.overcome{
+	color:#004b66;
+}
+
+.research{
+	/*color: #005e80;*/
+	color: navy;
+}
+
+hr {
+	color:;
+	outline-style: double;
+	outline-width:2px ;
+	outline-color:#66d9ff;
+	width: 75%;
+}
+
+.imgFluid {
+  height: 400px;
+  width: 600px;
+  border: 0;
+  box-shadow: 0 0 12px grey;
+  border-radius: 10px;
+  margin: ;
+}
+
+.thumbnail {
+  padding: px;
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  -moz-box-shadow: 5px 5px 5px 5px;
+	-webkit-box-shadow: 5px 5px 5px 5px;
+	box-shadow: 5px 5px 5px 5px;
+
+}
+
+.section-down {
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  width: 80%;
+  margin: 40px 0 0 40px;
+}
+
+.reverse-order {
+  flex-direction: row-reverse;
+}
+
+/* End Research page*/
+
+.footer a{
+	color: #ccccff;
+}
+
+h5{
+	margin: 0;
+	font-size: 12pt;
+}
+
+img{
+	height: 200px;
+	width: 300px;
+}
+
+.meditation{
+	height: 300px;
+	width: 700px;
+	margin: 30px 0 20px 0;
+	padding: 0px 0 0px 0;
+	-moz-box-shadow: 5px 5px 5px 5px;
+	-webkit-box-shadow: 5px 5px 5px 5px;
+	box-shadow: 5px 5px 5px 5px;
+}
+
+.sober{
+	color:#4dd2ff ;
+}
+
+.happy{
+	color:#1ac6ff;
+}
+
+.strong{
+	color:#33ccff;
+	margin-bottom: 0;
+}
+
+#affirm{
+	padding-top: 15px;
+}
+
+.content-box{
+	justify-content: center;
+}
+
+.pic-box{
+	display: flex;
+	justify-content: center;
+}
+
+.example{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}	
+
+.content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h4{
+	font-size: 18pt;
+}
+.element{
+	height: 510px;
+	width: 300px;
+	margin: 50px 70px 50px ;
+	padding: 10px ;
+	border-color: darkblue;
+	-moz-box-shadow: 5px 5px 5px 5px;
+	-webkit-box-shadow: 5px 5px 5px 5px;
+	box-shadow: 5px 5px 5px 5px;
+	background-color: #ccb3ff;
+}
+
+.element:hover{
+	background-color:#9966ff;
+}
+
+.therapy{
+	background-color:;
+	padding: 0px;
+}
+
+.meetings{
+	background-color: ;
+}
+
+h2{
+	text-align: center;
+	margin-top: 0;
+}
+
+.content1{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:left;
+	margin: 60px 0 0 120px;
+}
+
+.content2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: right;
+	margin: 40px 80px 20px 0;
+}
+
+.chart1{
+	height: 500px;
+	width: 800px;
+	}
+
+.chart2{
+	height:600px;
+	width: 900px;
+}
+
+.main{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#slider-img{
+	height:500px ;
+	width: 600px;
+	margin-top: 20px;
+	-moz-box-shadow: 5px 5px 5px 5px;
+	-webkit-box-shadow: 5px 5px 5px 5px;
+	box-shadow: 5px 5px 5px 5px;	
+}
+
+h1{
+	text-align: center;
+	margin-top: 40px;
+}
+
+.connect{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.about{
+	text-align: left;
+	font-size: 32pt;
+	margin-top: 30px;
+}
+
+.imgAbout{
+	height: 300px;
+	width: 300px;
+}
+
+
+.help{
+	text-align: left;
+	font-size: 14pt;
+}
+
+#imgContact{
+	height:300px ;
+	width: 300px;
+}
+.col-md-6{
+	text-align: center;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.form-group{
+	padding: 0px 20px 40px 20px;
+}
+
+.invalid-feedback{
+	text-align: left;
+}
+
+.center-button{
+	display: flex;
+	justify-content: center;
+}
+
+button{
+	background-color:#d6e0f5;
+	color:#0000cc;
+	font-size: 12pt;
+	font-family: cursive;
+}
+
+input{
+	font-size: 14pt;
+	font-family: cursive;
+	color: #0000cc;
+	background-color:#c2d1f0;
+}
+
+textarea{
+	font-size: 14pt;
+	font-family: cursive;
+	color: #0000cc;
+	background-color:#c2d1f0;
+}
+
+.invalid-feedback{
+	display: none;
+}
+
+.para  {
+	font-size: 14pt;
+}
+
+.re-search{
+	text-align: left;
+	font-size: 32pt;
+	margin-top: 30px;
+}
+
+#on-submission{
+	display: flex;
+	justify-content: center;
+	font-size: 22pt;
+	color: navy;
+}
+
+.chart4{
+	color: white;
+}
+
+.chart4-size{
+	color: white;
+	font-size: 10pt;
+}
+
+canvas{
+	background-color:white;
+}
